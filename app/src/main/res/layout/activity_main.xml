@@ -16,12 +16,11 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="48sp"
+        android:layout_centerHorizontal="true"
         android:text="Over The Cloud"
         android:textColor="#ffffff"
-        android:layout_centerHorizontal="true"
-        tools:ignore="MissingConstraints"
-        />
+        android:textSize="48sp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:layout_width="wrap_content"
