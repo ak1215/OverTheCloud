@@ -13,7 +13,7 @@ public class Flight {
 
     boolean isGoingUp = false;
     int x, y, width, height, wingCounter = 0;
-    Bitmap flight1, flight2;
+    Bitmap flight1, flight2, shoot1, shoot2, shoot3, shoot4, shoot5;
 
     Flight(int screenY, Resources res){
 
@@ -28,6 +28,8 @@ public class Flight {
 
         flight1 = Bitmap.createScaledBitmap(flight1, width, height, false);
         flight1 = Bitmap.createScaledBitmap(flight1, width, height, false);
+
+        shoot1 = BitmapFactory.decodeResource(res)
 
         y = screenY / 2;
         x = (int)(64 * screenRatioX);
