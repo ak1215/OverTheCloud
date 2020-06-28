@@ -5,6 +5,8 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Rect;
 
+import com.heyletscode.ihavetofly.R;
+
 import static com.example.overthecloud.GameView.screenRatioX;
 import static com.example.overthecloud.GameView.screenRatioY;
 
@@ -22,8 +24,8 @@ public class Bullet {
         width/=4;
         height /= 4;
 
-        width *= (int) screenRatioX;
-        height *= (int) screenRatioY;
+        width *= (int) (width*screenRatioX);
+        height *= (int) (height*screenRatioY);
 
         bullet = Bitmap.createScaledBitmap(bullet, width, height, false);
     }

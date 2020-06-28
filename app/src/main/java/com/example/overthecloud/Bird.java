@@ -5,6 +5,8 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Rect;
 
+import com.heyletscode.ihavetofly.R;
+
 import static com.example.overthecloud.GameView.screenRatioX;
 import static com.example.overthecloud.GameView.screenRatioY;
 
@@ -28,8 +30,8 @@ public class Bird {
         width /= 6;
         height /= 6;
 
-        width *= (int) screenRatioX;
-        height *= (int) screenRatioY;
+        width *= (int) (width*screenRatioX);
+        height *= (int) (height*screenRatioY);
 
         bird1 = Bitmap.createScaledBitmap(bird1, width, height, false);
         bird2 = Bitmap.createScaledBitmap(bird2, width, height, false);
