@@ -14,7 +14,6 @@ import android.os.Build;
 import android.view.MotionEvent;
 import android.view.SurfaceView;
 
-import com.heyletscode.ihavetofly.R;
 
 import java.util.ArrayList;
 import java.util.List;

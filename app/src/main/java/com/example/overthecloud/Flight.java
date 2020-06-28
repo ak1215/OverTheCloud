@@ -5,9 +5,7 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Rect;
 
-import com.heyletscode.ihavetofly.R;
 
-import java.util.ResourceBundle;
 
 import static com.example.overthecloud.GameView.screenRatioX;
 import static com.example.overthecloud.GameView.screenRatioY;
